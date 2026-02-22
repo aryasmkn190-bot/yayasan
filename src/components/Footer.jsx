@@ -12,8 +12,7 @@ export default function Footer() {
                 <div className="footer-grid">
                     <div>
                         <div className="footer-brand">
-                            <div className="nav-logo-icon">SB</div>
-                            <span className="footer-brand-name">Saling Bantu Kreasi Indonesia</span>
+                            <img src="/logo_yayasan.PNG" alt="Logo Saling Bantu Kreasi Indonesia" className="footer-logo-img" />
                         </div>
                         <p className="footer-desc">
                             Yayasan yang mendorong kolaborasi, pemberdayaan komunitas, dan

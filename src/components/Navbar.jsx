@@ -29,8 +29,7 @@ export default function Navbar() {
             <nav className={`navbar ${scrolled ? 'scrolled' : ''}`} id="navbar">
                 <div className="container">
                     <a href="#" className="nav-logo" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); }}>
-                        <div className="nav-logo-icon">SB</div>
-                        <span>Saling Bantu</span>
+                        <img src="/logo_yayasan.PNG" alt="Logo Saling Bantu Kreasi Indonesia" className="nav-logo-img" />
                     </a>
 
                     <div className="nav-links">
@@ -68,8 +67,7 @@ export default function Navbar() {
             <div className={`mobile-nav-panel ${mobileOpen ? 'active' : ''}`}>
                 <div className="mobile-nav-header">
                     <div className="nav-logo" style={{ color: 'var(--text-primary)' }}>
-                        <div className="nav-logo-icon">SB</div>
-                        <span>Saling Bantu</span>
+                        <img src="/logo_yayasan.PNG" alt="Logo Saling Bantu Kreasi Indonesia" className="nav-logo-img" />
                     </div>
                     <button className="mobile-nav-close" onClick={() => setMobileOpen(false)}>✕</button>
                 </div>

@@ -17,6 +17,7 @@ export default function About() {
 
                     <div className="about-content">
                         <div className="section-label">Tentang Kami</div>
+                        <img src="/logo_yayasan.PNG" alt="Logo Saling Bantu Kreasi Indonesia" className="about-logo" />
                         <h2 className="section-title">
                             Yayasan <span>Saling Bantu</span> Kreasi Indonesia
                         </h2>
